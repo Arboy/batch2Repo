@@ -20,7 +20,7 @@ body {
     }
   }
 }
-nav {
+/*nav {
 &#nav1 {
   border: #006B41 solid 3px;
   width: 1055px;
@@ -28,7 +28,7 @@ nav {
   margin: auto;
   margin-top: 30px;
   ul {
-    &.ul1 {
+    &.Ul1 {
       li {
         &.Li1 {
           padding-bottom: 20px;
@@ -50,25 +50,27 @@ nav {
     }
   }
   }
-}
-/*
-!*footer SASS variables*!
+}*/
+
+/*!*footer SASS variables*!*/
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @mixin nav2_def{
   display: inline-block;
-  font-size: 35px;
+  font-size: 25px;
   text-align: left;
   color: white;
-  padding: 30px 5% 30px 5%;
+  padding: 30px 0% 30px 5%;
+  margin-left: 75px;
 }
 @mixin nav2_line{
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   list-style: none;
+  line-height: 25px;
   color: white;
 }
 
-!*footer SASS codes*!
+/*!*footer SASS codes*!*/
 footer {
   background-color: #006B41;
   margin-top: 50px;
@@ -95,4 +97,4 @@ nav {
               &:active {
                 color: white;
               }}}}}}}}
-*/
+
