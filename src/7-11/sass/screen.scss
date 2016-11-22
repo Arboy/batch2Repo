@@ -1,0 +1,98 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+#header_bg {
+  text-align: center;
+  margin-top: 40px;
+  background: url("../img/header_bg.fw.png") repeat-x;
+  a {
+
+    img {
+      background-color: white;
+      padding: 0px 15px 0px 15px;
+    }
+  }
+}
+nav {
+&#nav1 {
+  border: #006B41 solid 3px;
+  width: 1055px;
+  height: 70px;
+  margin: auto;
+  margin-top: 30px;
+  ul {
+    &.ul1 {
+      li {
+        &.Li1 {
+          padding-bottom: 20px;
+          padding-top: 20px;
+          padding-left: 10px;
+          padding-right: 35px;
+          margin-left: 20px;
+          width: 200px;
+          float: left;
+          a {
+            &.link_nav1 {
+              text-decoration: none;
+              color: #006B41;
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  }
+}
+/*
+!*footer SASS variables*!
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@mixin nav2_def{
+  display: inline-block;
+  font-size: 35px;
+  text-align: left;
+  color: white;
+  padding: 30px 5% 30px 5%;
+}
+@mixin nav2_line{
+  text-align: left;
+  font-size: 25px;
+  list-style: none;
+  color: white;
+}
+
+!*footer SASS codes*!
+footer {
+  background-color: #006B41;
+  margin-top: 50px;
+  height: auto;
+}
+nav {
+  &.nav2 {
+    @include nav2_def;
+    ul {
+      padding-top: 20px;
+      li {
+        &.li2 {
+          @include nav2_line;
+          a {
+            &.link_nav2 {
+              color: white;
+              text-decoration: none;
+              &:visited {
+                color: white;
+              }
+              &:hover {
+                text-shadow: 2px 2px 10px #ffffff;
+              }
+              &:active {
+                color: white;
+              }}}}}}}}
+*/
