@@ -5,6 +5,19 @@
 
 @import "compass/reset";
 
+#mobile-version {
+  background-color: #7b7b7b;
+  height: 80%;
+  div{
+  .icon-menu {
+    width: 50%;
+  }
+    .container{
+
+    }
+  }
+}
+
 /*footer SASS variables*/
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @mixin nav2_def{
@@ -462,4 +475,44 @@ footer {
   margin: 130px auto 0 auto;
   text-align: center;
 }
+
+
+
+//1300,979,767,480
+
+@media only screen and (max-width: 1366px) {
+  body {
+    background-color: #0044ff;
+  }
+  #nav1{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  body {
+    background-color: #0044ff;
+  }
+
+}
+
+@media only screen and (max-width: 979px) {
+  body {
+    background-color: #38c1ff;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: #ffdebb;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #52ff3d;
+  }
+}
+
+
 
