@@ -6,14 +6,16 @@
 @import "compass/reset";
 
 #mobile-version {
-  background-color: #7b7b7b;
+  background-color: gray;
   height: 80%;
+  width: 50px;
   div{
   .icon-menu {
     width: 50%;
+    height: 70%;
+    background-color: white;
   }
     .container{
-
     }
   }
 }
